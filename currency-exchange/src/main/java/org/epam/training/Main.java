@@ -4,6 +4,6 @@ import org.epam.training.task5.util.UIUtil;
 
 public class Main {
     public static void main(String[] args) {
-      //  UIUtil uiUtil
+        UIUtil.init();
     }
 }

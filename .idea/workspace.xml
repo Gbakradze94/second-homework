@@ -5,35 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58fb7dcc-90a1-4ed0-a6a1-bd7e68d4dc12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/model/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/model/ExchangeRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/model/ExchangeTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/service/ExchangeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/util/UIUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task1/DasExperiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task2/Deadlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task3/MyCustomBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task3/WheresYourBusDude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task4/BlockingObjectPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task4/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task6/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/epam/training/task6/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/util/UIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange/src/main/java/org/epam/training/task5/util/UIUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +41,7 @@
     "jdk.selected.JAVA_MODULE": "17"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.epam.training.task3.Main">
-    <configuration name="DasExperiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.epam.training.task1.DasExperiment" />
-      <module name="second-practical-task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.epam.training.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.epam.training.Main">
     <configuration name="Deadlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.epam.training.task2.Deadlocks" />
       <module name="second-practical-task" />
@@ -100,6 +61,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.epam.training.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.epam.training.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.epam.training.Main" />
+      <module name="currency-exchange" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epam.training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.epam.training.Main" />
         <item itemvalue="Application.org.epam.training.task3.Main" />
         <item itemvalue="Application.org.epam.training.task4.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Deadlocks" />
-        <item itemvalue="Application.DasExperiment" />
       </list>
     </recent_temporary>
   </component>

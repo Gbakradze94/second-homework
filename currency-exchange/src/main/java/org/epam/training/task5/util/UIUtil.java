@@ -1,5 +1,6 @@
 package org.epam.training.task5.util;
 
+
 import java.util.Scanner;
 
 public class UIUtil {
@@ -11,38 +12,29 @@ public class UIUtil {
             Scanner scanner = new Scanner(System.in);
             int value = 0;
             String optionValue = scanner.next();
-            if (optionValue.matches("//d+")) {
-                value = Integer.parseInt(optionValue);
-            }
+
+            value = Integer.parseInt(optionValue);
+
             switch (value) {
-                case 1:
-                    openAccount(scanner);
-                    break;
-                case 2:
-                    exchangeCurrency();
-                    break;
-                case 3:
-                    addClient(scanner);
-                    break;
-                case 4:
-                    searchAccount(scanner);
-                    break;
-                case 5:
+                case 1 -> openAccount(scanner);
+                case 2 -> exchangeCurrency();
+                case 3 -> addClient(scanner);
+                case 4 -> searchAccount(scanner);
+                case 5 -> {
                     System.out.println("Bank app terminated");
                     ui = false;
-                    break;
-                default:
-                    System.out.println("Enter the digit number for your operation");
+                }
+                default -> System.out.println("Enter the digit number for your operation");
             }
         }
     }
 
     private static void searchAccount(Scanner scanner) {
-
+        // TODO
     }
 
     private static void addClient(Scanner scanner) {
-
+        // TODO
     }
 
     private static void exchangeCurrency() {
@@ -50,7 +42,7 @@ public class UIUtil {
     }
 
     private static void openAccount(Scanner scanner) {
-
+        // TODO
     }
 
     private static void displayUi() {
